@@ -1,6 +1,7 @@
 // dns: splitting "host:port" and looking a name up through the system resolver (localhost and an address literal need no network).
 import std;
 import goose_io_dns from "..";
+import goose_io from "github.com/BHare1985/goose-io@apply-name-resolution";
 import gslib from "SorinS/gslib@v0.9.3";
 
 var failed = 0;

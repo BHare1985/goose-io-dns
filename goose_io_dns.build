@@ -1,2 +1,2 @@
-// Programs of their own (tests, examples) are not part of the package.
-exclude = ["tests", "examples"];
+// Programs of their own (tests, examples, the conformance runner) are not part of the package.
+exclude = ["tests", "examples", "conformance.goose"];

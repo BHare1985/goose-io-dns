@@ -11,7 +11,7 @@
 //
 // A name that answers with more than 8 addresses keeps the first 8, and a name that stops resolving keeps its last answer.
 import tcprouter from "../../goose-io-tcpproxy";
-import goose_io from "github.com/BHare1985/goose-io@v0.4";
+import goose_io from "github.com/BHare1985/goose-io@apply-name-resolution";
 import epoll_ext from "github.com/BHare1985/goose-io-epoll-ext@main";
 import goose_io_dns from "..";
 import gslib from "SorinS/gslib@v0.9.3";
